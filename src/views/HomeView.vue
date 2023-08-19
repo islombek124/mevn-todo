@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
-const baseUrl: string = 'https://blushing-newt-kerchief.cyclic.cloud/todos'
+const baseUrl: string = 'https://mevn-todo-api.vercel.app/todos'
 import axios from "axios";
 import type TodoType from "@/types/TodoType";
 
